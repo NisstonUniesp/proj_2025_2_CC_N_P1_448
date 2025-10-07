@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cinza claro suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #1A237E; /* Azul Marinho Escuro (Cor principal moderna) */
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 4px solid #424242; /* Cinza Carvão (Borda das seções) */
+}
+
+h2 {
+    color: #1A237E; /* Azul Marinho Escuro (Cor de destaque) */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+
+/* Container para centralizar o botão entre header e main */
+.top-button-container {
+    text-align: center;
+    margin-top: 20px; /* Adiciona espaço após o header */
+    margin-bottom: 20px; /* Adiciona espaço antes do main */
+}
+
+/* Estilo Minimalista para o Botão de Link (Com Destaque Fixo) */
+.button-link-secondary {
+    display: inline-block;
+    /* Fundo destacado: usa a cor principal */
+    background-color: #1A237E; 
+    /* Cor do texto: usa branco para contraste */
+    color: white; 
+    border: 1px solid #1A237E; /* Borda com a cor principal */
+    padding: 10px 20px; /* Um pouco mais de padding para destaque */
+    text-decoration: none; 
+    font-size: 1em; /* Tamanho normal para destaque */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 4px;
+    /* Pequena sombra sutil para dar profundidade */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.button-link-secondary:hover {
+    /* Efeito de hover mais suave (inverte as cores levemente) */
+    background-color: white; 
+    color: #1A237E; 
+    /* Remove a sombra e adiciona uma leve escala para feedback visual */
+    box-shadow: none;
+    transform: translateY(1px);
+}
